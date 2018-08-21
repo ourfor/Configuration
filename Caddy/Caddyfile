@@ -1,0 +1,34 @@
+ourfor.top:443 {
+	root /home/wwwroot/ourfor.top/
+	gzip
+	tls 2320813747@qq.com
+}
+file.ourfor.top:443 {
+	root /home/wwwroot/file.ourfor.top
+	gzip
+	browse / /home/wwwroot/caddy_browse.tpl
+	filemanager /sagit ./file.ourfor.top {
+		locale zh-cn
+	}
+	markdown / {
+		css /css/Clearness.css
+	}
+	tls 2320813747@qq.com
+}
+www.ourfor.top:443 {
+	root /home/wwwroot/www.ourfor.top/
+	gzip
+	tls 2320813747@qq.com
+}
+blog.ourfor.top:443 {
+	root /home/wwwroot/blog.ourfor.top/
+	timeouts 10m
+        gzip
+        fastcgi / 127.0.0.1:9000 php
+	tls 2320813747@qq.com
+}
+diary.ourfor.top:80 {
+	root /home/wwwroot/diary.ourfor.top/
+	timeouts 10m
+        gzip
+}
