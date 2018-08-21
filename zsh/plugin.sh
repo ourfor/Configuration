@@ -4,7 +4,7 @@
 
 #安装zsh
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
 
 #安装powerline
 
@@ -25,4 +25,12 @@ git clone https://github.com/dylanaraps/neofetch.git
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim    #安装Vundle插件管理工具
 
-#
+#同步vim偏好设置
+
+mv ~/.vimrc ~/.vimrc.bak
+curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/vim/.vimrc -o ~/.vimrc
+
+#同步zsh偏好设置
+
+mv ~/.zshrc ~/.zshrc.bak
+curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
