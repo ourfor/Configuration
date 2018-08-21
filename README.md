@@ -25,5 +25,5 @@ if it is a configure file, download it:
 curl -L url_of_targer_script -o saving_location
 ```
 
-` saving_location ` is the location of aiming file.
+` saving_location ` is the location of the target file.
  
