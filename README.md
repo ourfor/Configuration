@@ -12,17 +12,17 @@ Saving all the preferance config file
 
 - Step 3
 
-Assume the URL you had copyed is ` url_of_targer_script `
+Assume the URL you had copyed is ` url_of_target_script `
 
 if it is a script, do the following command：
 
 ```bash
-sh -c "$(curl -fsSL url_of_targer_script)"
+sh -c "$(curl -fsSL url_of_target_script)"
 ```
 
 if it is a configure file, download it:
 ```bash
-curl -L url_of_targer_script -o saving_location
+curl -L url_of_target_script -o saving_location
 ```
 
 ` saving_location ` is the location of the target file.
