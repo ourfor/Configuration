@@ -1,5 +1,5 @@
 # Configuration
-Saving all the pereferance config file
+Saving all the preferance config file
 
 
 # How to use those script
