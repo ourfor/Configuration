@@ -11,6 +11,7 @@ Saving all the preferance config file
 ![](./copy.png)
 
 - Step 3
+
 Assume the URL you had copyde is ' url_of_targer_script '
 
 if it is a script, do the following command：
