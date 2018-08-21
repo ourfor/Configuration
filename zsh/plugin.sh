@@ -1,6 +1,7 @@
 #!/bin/bash
 # author:ourfor date:20180821 website:ourfor.top
 # 一些zsh插件的安装
+# 注意：此脚本可能需要执行两次
 
 #安装zsh
 ls ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
