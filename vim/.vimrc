@@ -13,7 +13,7 @@ Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-#Personal Preferances
+"Personal Preferances
 set nu            " 显示行号
 syntax on  "语法高亮
 set hlsearch  "搜索高亮度反白
