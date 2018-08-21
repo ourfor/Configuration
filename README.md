@@ -2,7 +2,7 @@
 Saving all the preferance config file
 
 
-# How to use those script
+# How to use those scripts
 
 - Step 1
 ![](./raw.png)
@@ -12,7 +12,7 @@ Saving all the preferance config file
 
 - Step 3
 
-Assume the URL you had copyde is ` url_of_targer_script `
+Assume the URL you had copyed is ` url_of_targer_script `
 
 if it is a script, do the following command：
 
