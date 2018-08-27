@@ -356,7 +356,7 @@ footer{
 		<footer>
 			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/style-social-green.svg?logo=github&label=ourfor&longCache=true&style=social"></a>
 			<a href="https://ourfor.top"><img src="https://img.shields.io/badge/Designed%20by-ourfor-brightgreen.svg"></a>
-			<a href="https://ourfor.top"><img src="https://img.shields.io/badge/style-social-green.svg?logo=wechat&label=zip&longCache=true&style=social"></a>
+			<a href="https://contact.ourfor.top"><img src="https://img.shields.io/badge/style-social-green.svg?logo=wechat&label=zip&longCache=true&style=social"></a>
 		</footer>
 		
 		</div>
