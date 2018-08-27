@@ -156,7 +156,7 @@ td .goup {
 	left: 0;
 }
 footer {
-	padding: 18px 20px;
+	padding: none;
 	font-size: 12px;
 	text-align: center;
 }
