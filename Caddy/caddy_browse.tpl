@@ -183,6 +183,38 @@ footer {
 	}
 }
 </style>
+
+<style type="text/css"> 
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#container{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;  
+    width:100%;
+    min-height:100%; 
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/  
+    padding-bottom: 100px;  
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 200px;
+    background: orange;
+}
+footer{
+    width: 100%;
+  /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+</style>
+
 	</head>
 	<body>
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0" width="0" style="position: absolute;">
@@ -225,6 +257,9 @@ footer {
 				</g>
 			</defs>
 		</svg>
+		
+		<div id="container">
+		
 		<header>
 			<h1>
 				{{range $i, $crumb := .Breadcrumbs}}<a href="{{html $crumb.Link}}">{{html $crumb.Text}}</a>{{if ne $i 0}}/{{end}}{{end}}
@@ -319,7 +354,11 @@ footer {
 			</div>
 		</main>
 		<footer>
-			Designed by <a rel="noopener noreferrer" href="https://ourfor.top">ourfor</a>
+			<a href="https://ourfor.top"><img src="https://img.shields.io/badge/Designed%20by-ourfor-brightgreen.svg"></a>
+		</footer>
+		
+		</div>
+		
 		</footer>
 		<script>
 			var filterEl = document.getElementById('filter');
