@@ -45,8 +45,8 @@ td:last-child {
 	padding-right: 5%;
 }
 header {
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #f2f2f2;
 }
 h1 {
@@ -74,8 +74,8 @@ main {
 	font-size: 12px;
 	font-family: Verdana, sans-serif;
 	border-bottom: 1px solid #9C9C9C;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 .meta-item {
 	margin-right: 1em;
@@ -100,9 +100,9 @@ td {
 	padding: 10px 0;
 }
 th {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	font-size: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 14px;
 	white-space: nowrap;
 }
 th a {
