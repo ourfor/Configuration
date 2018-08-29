@@ -354,9 +354,33 @@ footer{
 			</div>
 		</main>
 		<footer>
+		<p>
+			<a href="https://atom.io/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Atom&style=social"></a>
+			<a href="https://angel.co/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=AngelList&style=social"></a>
+			<a href="https://www.spotify.com"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Spotify&style=social"></a>
+			<a href="https://mail.google.com"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Gmail&style=social"></a>
+			<a href="https://www.raspberrypi.org/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Raspberry Pi&style=social"></a>
+			<a href="https://www.buzzfeed.com/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=BuzzFeed&style=social"></a>
+			<a href="https://www.messenger.com/t/mercurysquad"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Messenger&style=social"></a>
+			<a href="https://keep.google.com/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Keep&style=social"></a>
+		</p>
+		<p>
+			<a href="https://weibo.com/u/5213768713?refer_flag=1001030201_&is_all=1"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Instagram&style=social"></a>
+			<a href="https://gitter.im/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=gitter&style=social"></a>
+			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=TripAdvisor&style=social"></a>
+			<a href="https://plus.google.com/110846201925313557708"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google+&style=social"></a>
+			<a href="https://www.youtube.com/channel/UC82vnpLsmIiiTYQD7wRcWwQ?view_as=subscriber"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=YouTube&style=social"></a>
+			<a href="https://play.google.com"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Play&style=social"></a>
+			<a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Chrome&style=social"></a>
+			<a href="https://www.google.com/drive/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Drive&style=social"></a>
+			<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Vim&style=social"></a>
+			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=RSS&style=social"></a>
+		</p>
+		<p>
 			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/GitHub-ourfor-blue.svg?logo=github&style=social"></a>
 			<a href="https://ourfor.top"><img src="https://img.shields.io/badge/Designed%20by-ourfor-brightgreen.svg"></a>
 			<a href="https://contact.ourfor.top"><img src="https://img.shields.io/badge/WeChat-zip-orange.svg?logo=wechat&style=social"></a>
+		</p>
 		</footer>
 		
 		</div>
