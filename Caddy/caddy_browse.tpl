@@ -365,16 +365,16 @@ footer{
 			<a href="https://keep.google.com/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Keep&style=social"></a>
 		</p>
 		<p>
-			<a href="https://weibo.com/u/5213768713?refer_flag=1001030201_&is_all=1"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Instagram&style=social"></a>
+			<a href="https://www.instagram.com/sagit.zxw/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Instagram&style=social"></a>
 			<a href="https://gitter.im/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=gitter&style=social"></a>
-			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=TripAdvisor&style=social"></a>
+			<a href="https://www.tripadvisorsupport.com"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=TripAdvisor&style=social"></a>
 			<a href="https://stackoverflow.com/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Stack Overflow&style=social"></a>
 			<a href="https://www.youtube.com/channel/UC82vnpLsmIiiTYQD7wRcWwQ?view_as=subscriber"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=YouTube&style=social"></a>
 			<a href="https://play.google.com"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Play&style=social"></a>
 			<a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Chrome&style=social"></a>
 			<a href="https://www.google.com/drive/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Google Drive&style=social"></a>
 			<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Vim&style=social"></a>
-			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=RSS&style=social"></a>
+			<a href="https://weibo.com/u/5213768713?refer_flag=1001030201_&is_all=1"><img src="https://img.shields.io/badge/-orange.svg?longCache=true&logo=Sina Weibo&style=social"></a>
 		</p>
 		<p>
 			<a href="https://github.com/ourfor"><img src="https://img.shields.io/badge/GitHub-ourfor-blue.svg?logo=github&style=social"></a>
