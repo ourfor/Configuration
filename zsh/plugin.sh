@@ -37,4 +37,4 @@ curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc
 
 sed -i "s~sagit~$ZSH~g" .zshrc
 
-echo -e "Please change the directory to neofetch and install the package 'make', and then do the command \"make install\", finally do \"source .zshrc\""
+echo -e "Please change the directory to neofetch and install the package 'make', and then do the command \"make install\", finally do \"cd ~;source .zshrc\""
