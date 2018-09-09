@@ -36,7 +36,7 @@ curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/vim/.vimrc
 mv ~/.zshrc ~/.zshrc.bak
 curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
 
-sed -i "s~sagit~$~g" .zshrc
+# sed -i "s~sagit~$~g" .zshrc
 
 clear
 echo "Please change the directory to neofetch and install the package 'make', and then do the command \"make install\", finally do \"cd ~;source .zshrc\""
