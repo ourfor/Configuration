@@ -32,11 +32,7 @@ curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/vim/.vimrc
 
 #同步zsh偏好设置
 
-# mv ~/.zshrc ~/.zshrc.bak
-# curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
+mv ~/.zshrc ~/.zshrc.bak
+curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
 
-echo -e "add: 
-zsh-autosuggestions
-zsh-syntax-highlighting
-in plugin list and change theme to powerline
-"
+sed -i "s~sagit~$ZSH~g" .zshrc
