@@ -36,3 +36,5 @@ mv ~/.zshrc ~/.zshrc.bak
 curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
 
 sed -i "s~sagit~$ZSH~g" .zshrc
+
+echo -e "Please change the directory to neofetch and install \'make\', and then do the command \"make install\", finally do \"source .zshrc\""
