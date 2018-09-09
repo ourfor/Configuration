@@ -3,6 +3,8 @@
 # 一些zsh插件的安装
 # 注意：此脚本可能需要执行两次
 
+echo -e "Important: You may execute this script twice\nSupport: ourfor\nContect:\n- qq:2320713747\n- E-mail:ourfor@foxmail.com\nwebsite:https://ourfor.top"
+
 #安装zsh
 ls ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
 
