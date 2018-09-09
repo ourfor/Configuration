@@ -40,6 +40,7 @@ sed -i "s~sagit~$ZSH~g" .zshrc
 
 clear
 echo "Please change the directory to neofetch and install the package 'make', and then do the command \"make install\", finally do \"cd ~;source .zshrc\""
+
 echo "*****************************************"
 echo "Important: You may execute this script twice\nSupport: ourfor\nContect:\n- qq:2320713747\n- E-mail:ourfor@foxmail.com\nWebsite:https://ourfor.top"
 echo "*****************************************"
