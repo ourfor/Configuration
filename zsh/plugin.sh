@@ -8,6 +8,8 @@ function tips()
 	echo -e "\033[32m$@\033[0m"
 }
 
+main(){
+
 #安装zsh
 ls ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
 
@@ -48,3 +50,4 @@ echo "Please change the directory to neofetch and install the package 'make', an
 echo "*****************************************"
 tips "Important: You may execute this script twice\nSupport: ourfor\nContect:\n- qq:2320713747\n- E-mail:ourfor@foxmail.com\nWebsite:https://ourfor.top"
 echo "*****************************************"
+}
