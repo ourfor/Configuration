@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-echo -e 'Nice To Meet You!'
-neofetch
-
 # Path to your oh-my-zsh installation.
 export ZSH="sagit"
 
@@ -84,6 +81,10 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+#Welcome information
+echo -e 'Nice To Meet You!'
+neofetch
 
 # User configuration
 
