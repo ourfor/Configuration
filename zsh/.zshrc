@@ -5,15 +5,15 @@ echo -e 'Nice To Meet You!'
 neofetch
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/sagit/.oh-my-zsh"
+export ZSH="/homr/sagit/.oh-my-zsh"
 
 # gcc setting
 #alias gcc='gcc-8'
 #alias g++='g++-8'
 
 # proxy list
-alias proxy='export all_proxy=socks5://127.0.0.1:1086'
-alias unproxy='unset all_proxy'
+#alias proxy='export all_proxy=socks5://127.0.0.1:1086'
+#alias unproxy='unset all_proxy'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -23,7 +23,6 @@ ZSH_THEME="powerline"
 POWERLINE_SHORT_HOST_NAME="true"
 POWERLINE_PATH="short"
 POWERLINE_DETECT_SSH="true"
-wd=/Volumes/Documents
 POWERLINE_HIDE_HOST_NAME="true"
 
 # Set list of themes to load
