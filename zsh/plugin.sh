@@ -27,10 +27,16 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim  
 
 #同步vim偏好设置
 
-mv ~/.vimrc ~/.vimrc.bak
+# mv ~/.vimrc ~/.vimrc.bak
 curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/vim/.vimrc -o ~/.vimrc
 
 #同步zsh偏好设置
 
-mv ~/.zshrc ~/.zshrc.bak
-curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
+# mv ~/.zshrc ~/.zshrc.bak
+# curl -L https://raw.githubusercontent.com/ourfor/Configuration/master/zsh/.zshrc -o ~/.zshrc
+
+echo -e "add: 
+zsh-autosuggestions
+zsh-syntax-highlighting
+in plugin list and change theme to powerline
+"
