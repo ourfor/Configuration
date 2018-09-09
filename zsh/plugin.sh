@@ -3,6 +3,12 @@
 # 一些zsh插件的安装
 # 注意：此脚本可能需要执行两次
 
+echo "Please change the directory to neofetch and install the package 'make', and then do the command \"make install\", finally do \"cd ~;source .zshrc\""
+
+echo "*****************************************"
+echo "Important: You may execute this script twice\nSupport: ourfor\nContect:\n- qq:2320713747\n- E-mail:ourfor@foxmail.com\nWebsite:https://ourfor.top"
+echo "*****************************************"
+
 
 #安装zsh
 ls ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  #github仓库更新安装
