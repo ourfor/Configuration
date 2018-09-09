@@ -5,7 +5,7 @@ echo -e 'Nice To Meet You!'
 neofetch
 
 # Path to your oh-my-zsh installation.
-export ZSH="/homr/sagit/.oh-my-zsh"
+export ZSH="sagit"
 
 # gcc setting
 #alias gcc='gcc-8'
