@@ -1,30 +1,54 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export PATH=$HOME/jdk-11.0.2.jdk/Contents/Home/bin/:$PATH
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# java jdk env path setting
+
+
+#java class library setting
+classpath=/Users/sagit/Documents/GitHub_Repo/Java_note/ClassLibrary 
+
+
+# Login Welcome information
+echo -e 'Nice To Meet You!'
+neofetch
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # gcc setting
-#alias gcc='gcc-8'
-#alias g++='g++-8'
+# alias gcc='gcc-8'
+# alias g++='g++-8'
 
 # proxy list
-#alias proxy='export all_proxy=socks5://127.0.0.1:1086'
-#alias unproxy='unset all_proxy'
+# alias proxy='export all_proxy=socks5://127.0.0.1:1086'
+# alias unproxy='unset all_proxy'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerline"
+POWERLEVEL9K_MODE='awesome-fontconfig'
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
-#POWERLEVEL9K_MODE='awesome-fontconfig'
-#ZSH_THEME="powerlevel9k"
+# awesome-fonts setting
+source ~/.fonts/*.sh
+
+# powerlever9k setting
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable newline os_icon vcs vi_mode)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="↱ ∂:"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="↳ ß:"
+
 
 #Powerline setting
-POWERLINE_SHORT_HOST_NAME="true"
-POWERLINE_PATH="short"
-POWERLINE_DETECT_SSH="true"
-POWERLINE_HIDE_HOST_NAME="true"
+#POWERLINE_SHORT_HOST_NAME="true"
+#POWERLINE_PATH="short"
+#POWERLINE_DETECT_SSH="true"
+#wd=/Volumes/Documents
+#POWERLINE_HIDE_HOST_NAME="true"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -86,10 +110,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-#Welcome information
-echo -e 'Nice To Meet You!'
-neofetch
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -118,3 +138,5 @@ neofetch
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
