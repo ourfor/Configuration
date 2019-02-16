@@ -1,0 +1,11 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/mysql/bin
+
+*/20 * * * * bash /root/Shell_script/auto_script/update_daily.sh
+59 2 * * * bash /root/Shell_script/auto_script/update_daily.sh
+*/20 7-23 * * * curl https://zip.leanapp.cn
+*/20 7-23 * * * curl https://diary.leanapp.cn
+12 3 * * * sudo reboot
+*/10 * * * * /usr/local/bin/php /var/lib/nginx/html/one.php cache:refresh
+0 * * * * /usr/bin/php /home/wwwroot/cloud.ourfor.top/one.php token:refresh
+*/10 * * * * /usr/bin/php /home/wwwroot/cloud.ourfor.top/one.php cache:refresh
