@@ -1,0 +1,7 @@
+cockpit.domain.com {
+        proxy / cockpit.domain.com:9090 {
+                insecure_skip_verify
+                transparent
+                websocket
+        }
+}
