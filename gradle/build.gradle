@@ -1,0 +1,23 @@
+plugins {
+    id 'war'
+}
+
+group 'top.ourfor.web.struts'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/'}
+    maven { url 'https://maven.aliyun.com/repository/public/'}
+    maven { url 'https://maven.aliyun.com/repository/spring/'}
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin'}
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '7.2.2.jre8'
+    compile group: 'org.apache.struts', name: 'struts2-core',version: '+'
+    compile group: 'junit',name: 'junit',version: '+'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '+'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
+}
