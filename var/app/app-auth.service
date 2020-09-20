@@ -1,0 +1,11 @@
+[Unit]
+Description=app
+After=syslog.target
+
+[Service]
+User=app
+ExecStart=/var/app/auth.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
